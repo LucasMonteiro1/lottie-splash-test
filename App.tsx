@@ -25,6 +25,7 @@ import {
   LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+import SplashScreen from 'react-native-lottie-splash-screen';
 
 const Section: React.FC<{
   title: string;
@@ -55,6 +56,10 @@ const Section: React.FC<{
 };
 
 const App = () => {
+  useEffect(() => {
+    // SplashScreen.hide(); // here
+  }, []);
+
   const isDarkMode = useColorScheme() === 'dark';
 
   const backgroundStyle = {

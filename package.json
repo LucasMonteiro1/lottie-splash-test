@@ -10,8 +10,10 @@
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
   "dependencies": {
+    "lottie-react-native": "^4.0.3",
     "react": "17.0.2",
     "react-native": "0.65.1",
+    "react-native-lottie-splash-screen": "^0.1.14"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
